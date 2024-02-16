@@ -26,3 +26,5 @@ def mav_command_result(conn):
     
     value = recieve_message(conn, "COMMAND_ACK").result
     return mav_results[value]
+
+#TODO: add System Information
